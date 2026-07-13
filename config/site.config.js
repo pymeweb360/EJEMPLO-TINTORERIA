@@ -8,11 +8,11 @@
 const siteConfig = {
   // --- Identidad del negocio ---
   business: {
-    name: "El Cepillo",
-    tagline: "El bar del porve",
+    name: "Lavanda tintorería",
+    tagline: "Frescura y limpieza profesional.",
     description:
-      "El bar del barrio clásico, para los de siempre. Más de 20 años cuidando del paladar de nuestro barrio.",
-    logoText: "El Cepillo", // se usa mientras hasLogo esté en false
+      "En Lavanda Tintorería cuidamos tus prendas con la máxima atención y profesionalidad. Ofrecemos servicios de limpieza, planchado y tratamiento de todo tipo de tejidos para que tu ropa luzca siempre impecable.",
+    logoText: "Lavanda tintorería", // se usa mientras hasLogo esté en false
 },
 
 // --- Imágenes ---
@@ -35,30 +35,13 @@ media: {
   // Si rellenas "servicesSheetCsvUrl" con un enlace CSV de Google Sheets,
   // el cliente podrá editar estos textos él mismo desde ahí. Si lo dejas
   // vacío (""), se usará la lista fija de "services" de aquí abajo.
-  servicesSheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?gid=125530377&single=true&output=csv",
+  servicesSheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRpup01fO_k8hDagKyZeWvNqhckGeo6qVU8gNjOAg6p0ysMnyGPBTwAcJpC6I5YowQZS3obLxfLDz6C/pub?gid=2030179150&single=true&output=csv",
 
-  services: [
-    {
-      title: "Vasos helados",
-      description: "Cerveza bien fría.",
-    },
-    {
-      title: "La carne buena habla por sí sola",
-      description: "Cada corte, una experiencia. Cada bocado, un motivo para volver.",
-    },
-    {
-      title: "Se chapa por la noche",
-      description: "Permitidos los fumadores.",
-    },
-    {
-      title: "Disfruta de la compañía de la mejor compañía",
-      description: "Gran presencia de gente icónica del barrio.",
-    },
-  ],
+  services: [],
 
   // --- Datos de contacto ---
 contact: {
-    email: "elcepillo@gmail.com",
+    email: "lavandatintoreria@gmail.com",
     phone: "+34 600 000 000",
     whatsapp: "34600000000", // solo números, con prefijo de país
     address: "Calle Colombia 10, 41013 Sevilla",
@@ -78,7 +61,7 @@ contact: {
 
   // --- Redes sociales (opcional, deja "" si no aplica) ---
   social: {
-    instagram: "https://instagram.com/elcepo",
+    instagram: "https://instagram.com/lavandatintoreria",
     facebook: "",
   },
 
@@ -87,13 +70,13 @@ contact: {
   // 2. Archivo > Compartir > Publicar en la Web > selecciona la hoja > formato CSV
   // 3. Pega aquí la URL que te da Google (termina en "output=csv")
   pricingSheetCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSZrfvMlIPiFi84KMVA1JEBjRdW7ZEcU8KQcQEax3w5pLh8SKYfjHJLYTHn5NCezdV86X0HKMteJkM/pub?gid=0&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRpup01fO_k8hDagKyZeWvNqhckGeo6qVU8gNjOAg6p0ysMnyGPBTwAcJpC6I5YowQZS3obLxfLDz6C/pub?gid=0&single=true&output=csv",
 
   // --- SEO básico ---
   seo: {
-    title: "El Cepillo | EL bar del Porvenir",
+    title: "Lavanda tintorería | Frescura y limpieza profesional.",
     description:
-      "Más de 20 años cuidando del paladar de nuestro barrio.",
+      "Tintorería profesional con soluciones de limpieza para ropa, textiles del hogar y prendas delicadas.",
     locale: "es_ES",
     city: "Sevilla",
   },
