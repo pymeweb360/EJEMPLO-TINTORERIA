@@ -31,7 +31,7 @@ export default function PriceList({ groups }) {
                   )}
                 </div>
                 <p className="whitespace-nowrap font-display text-lg font-600 text-ink">
-                  {item.price} €
+                  {item.price}
                 </p>
               </div>
             ))}
